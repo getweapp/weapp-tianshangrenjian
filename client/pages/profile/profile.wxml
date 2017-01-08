@@ -1,0 +1,11 @@
+<view class="page">
+    <view class="profile">
+    <image mode="aspectFit" src="{{avatar}}"></image>
+    <text>昵称：浓烈的卡农</text>
+    <text>年龄：23</text>
+    <text>身高：168</text>
+    </view>
+    <view style="display:flex;">
+      <button bindtap="sendMessage" class = "button" type="primary">约她</button>
+      </view>
+</view>

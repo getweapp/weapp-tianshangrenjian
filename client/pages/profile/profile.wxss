@@ -1,0 +1,18 @@
+.profile{
+  text-align: center;
+}
+.profile image{
+  width: 100%;
+  height: 600rpx;
+  background: #e3e3e3;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+}
+.profile text{
+  display: block;
+  padding: 20rpx;
+}
+
+.button{
+  margin-top: 100rpx;
+}

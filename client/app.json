@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/account/account"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#993399",
+    "navigationBarTitleText": "天上人间",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#b2b2b2",
+    "selectedColor": "#993399",
+    "backgroundColor": "#fdfdfd",
+    "borderStyle": "black",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "会员福利",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home2.png"
+    },
+    {
+      "pagePath": "pages/account/account",
+      "text": "成为会员",
+      "iconPath": "images/avatar.png",
+      "selectedIconPath": "images/avatar2.png"
+    }
+    ]
+  },
+  "debug":true
+}

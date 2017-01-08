@@ -1,0 +1,11 @@
+.page input{
+    height: 110rpx;
+    padding: 0rpx 50rpx;
+    background-color: #fff;
+    /*margin-left: 50rpx;
+    margin-right:50rpx*/
+}
+
+button{
+  background: #993399 !important;
+}

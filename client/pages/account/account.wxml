@@ -1,0 +1,17 @@
+<view class="page">
+
+    <view >
+    <image class="avatar" src="{{ avatar }}"></image>
+    <text class="title">{{ name }}</text>
+    </view>
+
+    <view wx:if="{{!authed}}" style="display:flex;">
+      <button bindtap="signIn" class = "button" type="primary">立即登录</button>
+      </view>
+    
+    <view wx:if="{{authed}}" style="display:flex;">
+      <button bindtap="signOut" class = "button black" type="primary">退出登录</button>
+      </view>
+
+
+</view>

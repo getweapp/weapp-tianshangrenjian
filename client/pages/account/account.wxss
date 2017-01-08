@@ -1,0 +1,22 @@
+.page{
+  text-align: center;
+  padding-top: 100rpx;
+}
+.avatar{
+  width: 160rpx;
+  height: 160rpx;
+
+}
+.title{
+  display:block;
+  padding: 30rpx;
+  color: #8a8a8a;
+}
+
+.button{
+	margin-top: 100rpx;
+}
+
+.button.black{
+  background:#8a8a8a !important;
+}
